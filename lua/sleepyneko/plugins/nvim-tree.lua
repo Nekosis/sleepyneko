@@ -26,9 +26,16 @@ return {
         update_root = true
       },
     })
+    -- Automatically open the tree on startup
     local function open_nvim_tree(data)
-      -- Open the tree, find the file, unfocus the tree
-      require("nvim-tree.api").tree.toggle({ focus = false, find_file = true, })
+
+      if string.find(data.file, "NvimTree_") then
+        require("nvim-tree.api").tree.open()
+        return
+      else
+        require("nvim-tree.api").tree.toggle({focus = false, find_file = true})
+      end
+
     end
     vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
     -- Automatically close the tree if it's the last window
