@@ -16,7 +16,7 @@
 
 SleepyNeko is my personal configuration for Neovim, featuring the [lazy.nvim package manager](https://github.com/folke/lazy.nvim). In case you are unfamiliar with Neovim, it is an amazing fork of the already great [Vim](https://www.vim.org/) text editor that adds a multitude of modern features, the most notable of which being the ability to write your configuration in the extensible scripting language [Lua](https://www.lua.org/about.html) instead of Vim's limited Vimscript. Vim, and by extension, Neovim, are characterized by their sheer efficiency and speed. If you want to read more about Neovim itself, feel free to check out the [Neovim website](https://neovim.io/). 
 
-This is my first ever configuration for any form of Vim, following the (relative) completion of my Emacs configuration, [Nyamacs](https://github.com/Nekosis/nyamacs). I learned Emacs first because I already had an alright TUI text editor going for me in the form of [Micro](https://micro-editor.github.io/) (which I would definitely recommend to new Linux users, by the way), but needed a GUI text editor that:
+This is my first ever configuration for any form of Vim, following the (relative) completion of my Emacs configuration, [Nyamacs](https://github.com/Nekosis/nyamacs). I learned Emacs first because I already had an alright TUI text editor going for me in the form of [Micro](https://micro-editor.github.io/) (which I would definitely recommend to new Linux users, by the way), but needed a GUI text editor that was:
 
 - DE-agnostic, as I run a standalone window manager
 - Not explicitly a code editor or IDE
