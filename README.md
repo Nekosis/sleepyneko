@@ -7,9 +7,9 @@
 <p align="center">My personal configuration for Neovim, featuring the lazy.nvim package manager.</p>
 
 <p align="center">
-<a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img alt="GPLv3 License" src="https://img.shields.io/badge/License-GPLv3-red.svg"></a>
-<a href="https://neovim.io/"><img alt="Neovim Editor" src="https://img.shields.io/badge/Editor-Neovim-green.svg"></a>
-<a href="https://github.com/folke/lazy.nvim"><img alt="lazy.nvim Package Manager" src="https://img.shields.io/badge/Package%20Manager-lazy.nvim-blue.svg"></a>
+<a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img alt="GPLv3 License" src="https://img.shields.io/badge/License-GPLv3-red.svg?style=for-the-badge&logo=GNU&logoColor=ffffff"></a>
+<a href="https://neovim.io/"><img alt="Built With Neovim" src="https://img.shields.io/badge/Built_With-Neovim-green.svg?style=for-the-badge&logo=Neovim&logoColor=ffffff"></a>
+<a href="https://github.com/folke/lazy.nvim"><img alt="lazy.nvim Package Manager" src="https://img.shields.io/badge/Package%20Manager-lazy.nvim-blue.svg?style=for-the-badge&logo=pkgsrc&logoColor=ffffff"></a>
 </p>
 
 ## About SleepyNeko
