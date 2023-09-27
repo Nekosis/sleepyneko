@@ -24,6 +24,12 @@ vim.opt.clipboard = 'unnamedplus'
 -- Enable line numbers
 vim.wo.number = true
 
+-- Use spaces instead of tabs
+vim.opt.expandtab = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+
 -- Set leader key
 vim.g.mapleader=" "
 
